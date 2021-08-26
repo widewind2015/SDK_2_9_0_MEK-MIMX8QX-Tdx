@@ -92,6 +92,9 @@ status_t LPSPI_RTOS_Deinit(lpspi_rtos_handle_t *handle);
  */
 status_t LPSPI_RTOS_Transfer(lpspi_rtos_handle_t *handle, lpspi_transfer_t *transfer);
 
+
+status_t LPSPI_RTOS_TransferBlocking(lpspi_rtos_handle_t *handle, lpspi_transfer_t *transfer);
+
 /*!
  * @}
  */

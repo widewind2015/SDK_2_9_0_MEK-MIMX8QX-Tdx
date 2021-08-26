@@ -125,3 +125,18 @@ status_t LPSPI_RTOS_Transfer(lpspi_rtos_handle_t *handle, lpspi_transfer_t *tran
     /* Return status captured by callback function */
     return handle->async_status;
 }
+
+
+
+status_t LPSPI_RTOS_TransferBlocking(lpspi_rtos_handle_t *handle, lpspi_transfer_t *transfer)
+{
+    status_t status;
+
+    status = LPSPI_MasterTransferBlocking(handle->base, transfer);
+    if (status != kStatus_Success)
+    {
+        return status;
+    }
+
+    return status;
+}

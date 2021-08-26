@@ -91,7 +91,9 @@ int main(void)
         PRINTF("Error: Failed to set SPI2 frequency\r\n");
     }
     
-    NVIC_SetPriority(ADMA_SPI2_INT_IRQn, 5);
+    //NVIC_SetPriority(ADMA_SPI2_INT_IRQn, 5);
+
+    //PRINTF("Basic Init Finised.\r\n");
 
     if (xTaskCreate(spi_task, "spi_task", configMINIMAL_STACK_SIZE + 100, NULL, spi_PRIORITY, NULL) !=
         pdPASS)
@@ -115,13 +117,14 @@ static void spi_task(void *pvParameters)
         PRINTF("Failed to init SPI2.\r\n");
         vTaskSuspend(NULL);
     }
+    PRINTF("LPSPI_RTOS_Init finish\r\n");
 
-    if (kStatus_Success != LPSPI_RTOS_Transfer(&handle, &spi_data))
+    if (kStatus_Success != LPSPI_RTOS_TransferBlocking(&handle, &spi_data))
     {
         PRINTF("Failed to send data on SPI2.\r\n");
         vTaskSuspend(NULL);
     }
-    
+    PRINTF("LPSPI_RTOS_Transfer finish\r\n");
     
     for (;;)
     {

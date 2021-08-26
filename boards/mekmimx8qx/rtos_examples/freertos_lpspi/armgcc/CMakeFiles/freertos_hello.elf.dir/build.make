@@ -606,52 +606,52 @@ freertos_hello_elf_OBJECTS = \
 # External object files for target freertos_hello.elf
 freertos_hello_elf_EXTERNAL_OBJECTS =
 
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/freertos_hello.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/pin_mux.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/board.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/clock_config.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/empty_rsc_table.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_clock.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_common.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/main/ipc_imx8qx.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/irq/irq_rpc_clnt.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/misc/misc_rpc_clnt.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/pad/pad_rpc_clnt.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/pm/pm_rpc_clnt.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/rm/rm_rpc_clnt.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/seco/seco_rpc_clnt.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/timer/timer_rpc_clnt.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_lpspi.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_lpspi_freertos.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/event_groups.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/croutine.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/list.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/queue.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/stream_buffer.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/tasks.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/timers.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/str/fsl_str.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/debug_console/fsl_debug_console.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/serial_manager/fsl_component_serial_manager.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/serial_manager/fsl_component_serial_port_uart.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_lpuart.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/uart/fsl_adapter_lpuart.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/lists/fsl_component_generic_list.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/gcc/startup_MIMX8QX6_cm4.S.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/system_MIMX8QX6_cm4.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_gpio.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/fsl_assert.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/fsl_sbrk.c.obj
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/build.make
-flash_release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable flash_release/freertos_hello.elf"
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/freertos_hello.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/pin_mux.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/board.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/clock_config.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/empty_rsc_table.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_clock.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_common.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/main/ipc_imx8qx.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/irq/irq_rpc_clnt.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/misc/misc_rpc_clnt.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/pad/pad_rpc_clnt.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/pm/pm_rpc_clnt.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/rm/rm_rpc_clnt.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/seco/seco_rpc_clnt.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/scfw_api/svc/timer/timer_rpc_clnt.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_lpspi.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_lpspi_freertos.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/event_groups.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/croutine.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/list.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/queue.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/stream_buffer.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/tasks.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/timers.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/str/fsl_str.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/debug_console/fsl_debug_console.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/serial_manager/fsl_component_serial_manager.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/serial_manager/fsl_component_serial_port_uart.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_lpuart.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/uart/fsl_adapter_lpuart.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/components/lists/fsl_component_generic_list.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/gcc/startup_MIMX8QX6_cm4.S.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/system_MIMX8QX6_cm4.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/drivers/fsl_gpio.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/fsl_assert.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/devices/MIMX8QX6/utilities/fsl_sbrk.c.obj
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/build.make
+release/freertos_hello.elf: CMakeFiles/freertos_hello.elf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable release/freertos_hello.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freertos_hello.elf.dir/link.txt --verbose=$(VERBOSE)
-	/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/gcc-arm-none-eabi-9-2020-q2-update//bin/arm-none-eabi-objcopy -Obinary /home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/armgcc/flash_release/freertos_hello.elf /home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/armgcc/flash_release/freertos_hello.bin
+	/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/gcc-arm-none-eabi-9-2020-q2-update//bin/arm-none-eabi-objcopy -Obinary /home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/armgcc/release/freertos_hello.elf /home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/boards/mekmimx8qx/rtos_examples/freertos_lpspi/armgcc/release/freertos_hello.bin
 
 # Rule to build all files generated by this target.
-CMakeFiles/freertos_hello.elf.dir/build: flash_release/freertos_hello.elf
+CMakeFiles/freertos_hello.elf.dir/build: release/freertos_hello.elf
 
 .PHONY : CMakeFiles/freertos_hello.elf.dir/build
 

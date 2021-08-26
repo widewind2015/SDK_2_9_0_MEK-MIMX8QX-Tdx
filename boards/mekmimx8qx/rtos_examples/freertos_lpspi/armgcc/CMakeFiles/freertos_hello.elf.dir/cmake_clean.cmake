@@ -37,8 +37,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/stream_buffer.c.obj"
   "CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/tasks.c.obj"
   "CMakeFiles/freertos_hello.elf.dir/home/ben/Toradex/LinuxDevelop/FreeRTOS/Colibri-iMX8X/SDK_2_9_0_MEK-MIMX8QX/rtos/freertos/freertos_kernel/timers.c.obj"
-  "flash_release/freertos_hello.elf"
-  "flash_release/freertos_hello.elf.pdb"
+  "release/freertos_hello.elf"
+  "release/freertos_hello.elf.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
