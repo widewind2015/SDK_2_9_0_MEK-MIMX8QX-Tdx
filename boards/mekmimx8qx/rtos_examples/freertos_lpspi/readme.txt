@@ -1,6 +1,7 @@
 A FreeRTOS LPSPI demo for M4 on Colbri iMX8X.
 
-![IMAGE](/pictures/oled-lcd-col-imx8x-m4.jpg)
+![IMAGE]
+(https://github.com/widewind2015/SDK_2_9_0_MEK-MIMX8QX-Tdx/blob/master/boards/mekmimx8qx/rtos_examples/freertos_lpspi/pictures/oled-lcd-col-imx8x-m4.jpg)
 
 LCD Module: GMD13001, SPI, 7 wires
 SoM: Colibri iMX8QXP 2GB IT
