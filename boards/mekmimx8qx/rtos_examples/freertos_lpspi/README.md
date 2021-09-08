@@ -25,3 +25,22 @@ M4 Debug UART:
 Colibri Eva Board
 X8.40,RX
 X8.41,TX
+
+M4 firmware is loaded by u-boot and Linux kernel on A35 cores is not started. 
+```
+Colibri iMX8X #   print m4boot_test
+m4boot_test=tftp ${loadaddr} m4_0.bin; dcache flush; bootaux ${loadaddr} 0
+Colibri iMX8X # run m4boot_test
+Using ethernet@5b040000 device
+TFTP from server 192.168.20.132; our IP address is 192.168.20.111
+Filename 'm4_0.bin'.
+Load address: 0x89000000
+Loading: ##################################################  17.3 KiB
+         1.7 MiB/s
+done
+Bytes transferred = 17720 (4538 hex)
+Power on aux core 0
+Copy image from 0x89000000 to 0x34fe0000
+Start M4
+bootaux complete
+```
